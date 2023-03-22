@@ -1,0 +1,173 @@
+/* selection dùng chung */
+.active-item{
+    background: #018576;
+    color: #fff;
+}
+
+/* product */
+#product {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.product-content {
+    display: flex;
+}
+
+.product-content-img {
+    width: 50%;
+
+}
+
+.product-content-img {
+    display: flex;
+}
+
+.product-content-img .img-info {
+    padding-left: 100px;
+    width: 100%
+}
+
+.product-content-img .img-info img {
+    width: 80%;
+}
+
+form .product-content-info {
+    width: 50%;
+    padding-left: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-content-info .name h1 {
+    font-size: 20px;
+}
+
+.product-content-info .name p {
+    color: rgb(212, 206, 206);
+    font-size: 15px;
+}
+
+.product-content-info .price {
+    margin: 12px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-content-info input.buy{
+    width: 100px;
+    margin-top: 10px;
+    background-color: #018576;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    font-size: 14px;
+}
+
+
+/* =============product slider========== */
+.product-slider{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product-slider-title {
+    margin: 20px 0;
+}
+
+.product-slider-title h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product-slider-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-slider-content .slider-item{
+    width: 20%;
+    text-align: center;
+    padding: 0 6px;
+}
+
+.product-slider-content img{
+    width: 100%;
+    height: 300px;
+}
+
+.slider-item h1{
+    font-size: 15px;   
+}
+
+.slider-item p{
+    font-size: 13px;
+}
+
+/* hien thi comment */
+.show__comment{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background: rgb(160, 159, 159);
+    width: 400px;
+    position: relative;
+    
+}
+
+.show__comment--content{
+    border-top: 1px solid rgb(56, 54, 54);
+    padding: 12px;
+}
+
+.show__comment .username{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.show__comment .cmt{
+    position: relative;
+}
+
+.show__comment .cmt a{
+    color: #fff;
+    position: absolute;
+    left: 340px;
+    top: -15px;
+    transition: all 0.5s ease;
+}
+
+.show__comment .cmt a:hover{
+    color: red;
+}
+/* css hiển thị cmt */
+.comment {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.comment form{
+    position: relative;
+}
+
+.comment form input{
+    border: 1px solid #018576;
+    padding: 20px;
+    width: 400px;
+    outline: none;
+}
+
+.comment form button {
+    position: absolute;
+    color: rgb(216, 12, 12);
+    left: 340px;
+    top: 4px;
+    padding: 18px;
+    background-color: #fff;
+    border: none;
+}

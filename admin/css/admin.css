@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+
+/* =====HEADER===== */
+header{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+header .user__admin {
+	margin-right: 30px;
+	padding: 10px 0;
+}
+
+.user__desc{
+	position: relative;
+	display: none;
+}
+
+.dropdown{
+	margin-top: 5px;
+	position: absolute;
+	right: 10px;
+	top: -5px;
+}
+
+.dropdown li {
+	padding: 7px 8px;
+	background-color: #fff;
+	box-shadow: 0 2px 2px 2px rgb(0 0 0 / 20%);
+	z-index: 9999999;
+}
+
+.dropdown li a{
+	color: #000;
+	display: block;
+}
+
+/* =====content===== */
+.content{
+	display: flex;
+}
+
+.content__left{
+	background-color: #dddddd;
+	height: 600px;
+	width: 18%;
+}
+
+
+.content__left--item{
+	padding: 10px 30px;
+	transition: all 0.5s ease;
+}
+
+.content__left--item a{
+	font-size: 20px;
+	color: #000;
+	transition: all 0.5s ease;
+}
+
+.content__left--item:hover{
+	background-color: rgb(32, 161, 208);
+}
+
+.content__left--item:hover a{
+	color: #fff;
+}
+
+
+
+.content__right{
+	width: 82%;
+}
+
+.content__right h1{
+    margin: 10px 20px;
+}
+
+.content__right .update{
+	margin: 10px 20px;
+}
+
+.content__right .update a{
+	display: inline-block;
+	background-color: rgb(27, 148, 175);
+	color: #fff;
+	padding: 5px 15px;
+	font-size: 18px;
+	transition: all 0.5s ease;
+}
+
+.content__right .update a:hover{
+	opacity: 0.7;
+}
+
+.content__right--management{
+    margin: 20px 20px;
+}
+
+table{
+    width: 100%;
+}
+
+table th, td{
+    text-align: center;
+}
+
+table a{
+    display: inline-block;
+    background-color: rgb(27, 148, 175);
+    color: #fff;
+    padding: 3px 5px;
+}
+
+/* =====Thêm các mục cần thiết======= */
+form {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 30px;
+}
+
+label {
+	margin-top: 15px;
+	font-size: 14px;
+	display: block;
+}
+
+form select {
+	width: 170px;
+	display: block;
+	margin-bottom: 20px;
+}
+form .update_get_input{
+	margin: 20px 0;
+}
+
+form .update_get_input input{
+	width: 100%;
+	padding: 8px 10px;
+}
+
+form input[type="submit"] {
+	padding: 10px 15px;
+	font-size: 14px;
+	outline: none;
+	background-color: rgb(27, 148, 175);
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+	opacity: 0.7;
+}
+
+form .size label{
+	display: inline!important;
+}
+
+form .update_special input{
+	display: inline;
+}
+
+form .update_special label {
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,81 @@
+.payment{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+.payment__content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment__content--left{
+    width: 60%;
+}
+
+.payment__content--left .method{
+    margin-bottom: 8px;
+}
+
+.payment__content--left .method p{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.payment__method--item .credit__img img{
+    width: 70px;
+    height: 50px;
+}
+
+.payment__content--right{
+    width: 40%;
+    border-left: 2px solid #ddd;
+    padding-left: 12px;
+}
+
+.payment__content--right .code__discount{
+    display: flex;
+    padding: 12px 0;
+}
+
+.payment__content--right .code__discount input{
+    height: 30px;
+    width: 200px;
+    margin-right: 100px;
+    padding-left: 12px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+
+.payment__content--right .code__discount button{
+    height: 30px;
+    width: 100px;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+}
+
+.payment__continue{
+    margin-left: 700px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.payment__continue button{
+    height: 35px;
+    padding: 0 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgb(7, 175, 181);
+    background-color: rgb(7, 175, 181);
+    color: #fff;
+}
+
+.payment__continue button:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    min-width: 400px;
+    background-color: #dddddd;
+    padding: 30px 30px 40px;
+}
+
+form h1{
+    text-align: center;
+    color: rgb(0, 208, 255);
+}
+
+.set__input{
+    margin-top: 20px;
+}
+
+.set__input label {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.set__input .import{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.5s ease;
+    border: 1px solid #000;
+    margin-bottom: 4px;
+}
+
+.set__input .import:hover{
+    border: 1px solid rgb(0, 208, 255);
+}
+
+.set__input .btn{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 15px;
+    background-color: rgb(0, 208, 255);
+    border: none;
+    outline: none;  
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.set__input .btn:hover{
+    opacity: 0.7;
+    color: #ffff;
+  
+}
+
+/* Thông báo lỗi khi đăng nhập */
+.error{
+    color: red;
+    display: block;
+}

@@ -1,0 +1,149 @@
+/* selection dùng chung */
+.cart__container--top .bg-color{
+    border: 1px solid rgb(7, 175, 181);
+    background-color: rgb(7, 175, 181);
+    color: #fff;
+}
+/*  */
+.cart{
+    padding: 60px 20px;
+    width: 80%;
+}
+
+.cart__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart__container--top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    margin: 50px 0 100px;
+}
+
+.top-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+
+
+.cart-content-center{
+    flex: 2;
+    padding: 12px;
+} 
+
+.cart-content-center table{
+    width: 100%;
+    text-align: center;
+}
+
+.cart-content-center table th{
+    padding-bottom: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-center table .img-product img{
+    width: 130px;
+}
+
+.cart-content-center table p{
+    font-size: 13px;
+    color: #333;
+}
+
+.cart-content-center table input{
+    width: 30px;
+}
+
+.cart-content-center table .color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-content-center table .color span {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: block;
+}
+
+.cart-content-center table td{
+    padding: 20px 0;
+    border-bottom: 2px solid #dddddd;
+}
+
+.cart-content-center .quantity{
+    width: 50px;
+}
+
+.cart-content-center .update_click{
+    display: block;
+    padding: 5px;
+    margin: 15px;
+    background: rgb(7, 175, 181);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.cart-content-center > a{
+    display: inline-block;
+    margin-left: 6px;
+    padding: 12px;
+    color: #fff;
+}
+
+.cart-content-center .continue-buy{
+    background-color: rgb(222, 222, 16);
+}   
+
+
+.cart-content-center .delete-all{
+    background-color: rgb(198, 18, 18);
+}
+
+.cart-content-center .complete{
+    background-color: rgb(51, 186, 51);
+    color: #fff!important;
+}
+
+.cart-content-center .continue{
+    background-color: rgb(51, 186, 51);
+    color: #fff!important;
+}
+
+.pay input{
+    width: 150px;
+    padding: 10px;
+    color: #fff;
+    outline: none;
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+}
+
+.pay input:hover{
+    opacity: 0.7;
+}
+
+.total-all{
+    margin-top: 10px;
+}
